@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DNS Switch</string>
+    <string name="permission_title">One-time setup required</string>
+    <string name="permission_message">Android requires a one-time ADB permission to change Private DNS. Connect your phone to ADB over USB or Wi-Fi, run this command, then reopen DNS Switch:\n\n%1$s</string>
+    <string name="copy_command">Copy command</string>
+    <string name="command_copied">ADB command copied</string>
+    <string name="set_custom_confirmation">Private DNS is not set to custom. Set it to custom now?</string>
+    <string name="already_automatic_title">Already set to Automatic</string>
+    <string name="already_automatic_confirmation">Set timer anyway and then change to custom?</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="custom_dns_blank">The custom DNS hostname is blank. Add a custom DNS hostname in Settings first.</string>
+    <string name="save_failed_unchanged">Could not save restore information. Private DNS has not been changed.</string>
+    <string name="change_failed">Could not change Private DNS. Check that the one-time ADB permission has been granted.</string>
+    <string name="duration_title">Switch back to custom DNS after…</string>
+    <string name="automatic_duration_set">Automatic DNS set for %1$s</string>
+    <string name="notification_channel_name">Temporary Private DNS</string>
+    <string name="notification_channel_description">Shown while automatic Private DNS is temporarily enabled.</string>
+    <string name="notification_title">DNS temporarily in auto mode</string>
+    <string name="notification_restore_scheduled">Restore scheduled for %1$s</string>
+    <string name="notification_restore_failed">Could not restore DNS. Tap Stop to retry.</string>
+    <string name="notification_end_action">Stop</string>
+    <string name="notification_extend_action">Extend</string>
+    <string name="extend_expired">The temporary DNS timer is no longer active.</string>
+    <string name="notification_permission_required">Allow notifications so DNS Switch can show the restore status and Stop action, then try again.</string>
+</resources>
